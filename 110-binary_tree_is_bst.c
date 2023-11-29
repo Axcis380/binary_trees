@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * greater_than - check if all values in the tree are greater than a value
- * @tree: pointer to the tree to check
- * @val: value to check against
+ * reater_than - chck f all values in the tre are reater than a valu
+ * @tre: pointer tothe ree to chck
+ * @va: value to chc against
  *
- * Return: 1 if true, 0 if false
+ * Retrn:1 if tru, 0 if flse
  */
 int greater_than(const binary_tree_t *tree, int val)
 {
@@ -25,11 +25,11 @@ int greater_than(const binary_tree_t *tree, int val)
 }
 
 /**
- * less_than - check if all values in the tree are less than a specific value
- * @tree: pointer to the tree to check
- * @val: value to check against
+ * ss_than - ck if all values in the tree are less than a specific value
+ * @tre: pointer to the tree to check
+ * @al: value to check against
  *
- * Return: 1 if true, 0 if false
+ * eturn: 1 if rue, 0 if alse
  */
 int less_than(const binary_tree_t *tree, int val)
 {
@@ -48,10 +48,10 @@ int less_than(const binary_tree_t *tree, int val)
 }
 
 /**
- * binary_tree_is_bst - checks if a binary tree is a valid binary search tree
- * @tree: pointer to the root node of the tree to check
+ * bi_tree_s_bst - chks if a bi tr is a vl bi srch tr
+ * @tre: pointer to the root node of the tr to chck
  *
- * Return: 1 if tree is a valid BST, and 0 otherwise. If tree is NULL, return 0
+ * Rtrn: 1 if tr is a vl BST, and 0 otherwise. If tr is NULL, rtrn 0
  */
 int binary_tree_is_bst(const binary_tree_t *tree)
 {

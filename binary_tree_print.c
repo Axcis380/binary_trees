@@ -2,18 +2,15 @@
 #include <stdlib.h>
 #include <string.h>
 #include "binary_trees.h"
-
-/* Original code from http://stackoverflow.com/a/13755911/5184480 */
-
 /**
- * print_t - Stores recursively each level in an array of strings
+ * pr_nt_t - St_r_s r_c_rs_v_ly __ch l_v_l _n _n _rr_y _f str_ngs
  *
- * @tree: Pointer to the node to print
- * @offset: Offset to print
- * @depth: Depth of the node
- * @s: Buffer
+ * @tr__: P__nt__r t_ th_ n_d_ t_ pr_nt
+ * @_ffs_t: _ffs_t t_ pr_nt
+ * @d_pth: D_pth _f th_ n_d_
+ * @s: B_ff_r
  *
- * Return: length of printed tree after process
+ * R__urn: l_ng_h _f pr_nt_d tr__ _ft_r pr_c_ss
  */
 static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)
 {
@@ -44,11 +41,11 @@ static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)
 }
 
 /**
- * _height - Measures the height of a binary tree
+ * _h__ght - M__asur_s th_ h__ght _f _ b__n__y tr__
  *
- * @tree: Pointer to the node to measures the height
+ * @tr__: P__nt__r t_ th_ n_d_ t_ m__asur_ th_ h__ght
  *
- * Return: The height of the tree starting at @node
+ * R__urn: Th_ h__ght _f th_ tr__ st_rt_ng _t @n_d_
  */
 static size_t _height(const binary_tree_t *tree)
 {
@@ -61,9 +58,9 @@ static size_t _height(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_print - Prints a binary tree
+ * b__a__y_tr__e_pr__nt - Pr__nts _ b__n__y tr__
  *
- * @tree: Pointer to the root node of the tree to print
+ * @_r__ : P__nt__r t_ th_ r__t n__e _f th_ tr__ t_ pr__nt
  */
 void binary_tree_print(const binary_tree_t *tree)
 {

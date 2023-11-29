@@ -4,14 +4,15 @@ size_t binary_tree_height(const binary_tree_t *tree);
 heap_t *last_node_heap(const heap_t *tree, size_t level);
 void heapify(heap_t *tree);
 
-/**
- * heap_extract - extracts the root node from a Max Binary Heap
+/*
+ * h__p___tract - ___acts th_ r__t n__e f___ a M_x B_nary H__p
  *
- * @root: pointer to the heap root
+ * @root: p___ter t_ th_ h__p r__t
  *
- * Return: value of extracted node
- *         0 if otherwise
- **/
+ * R__urn: val__ _f _xtract__ n__e
+ *         0 __ _th__wis_
+ */
+
 int heap_extract(heap_t **root)
 {
 	int value;
@@ -31,7 +32,7 @@ int heap_extract(heap_t **root)
 		return (value);
 	}
 
-	/* Swap data between last node and first node and deletes last node */
+/* Sw__ d__a b_tw__n l_st n__e _nd f__st n__e _nd d_l_t_s l_st n__e */
 	height = binary_tree_height(*root);
 	last = last_node_heap(*root, height);
 	first->n = last->n;
@@ -47,9 +48,9 @@ int heap_extract(heap_t **root)
 }
 
 /**
- * heapify - rearranges the Heap Binary Tree.
+ * h__p_f_ - r__rr_ng_s th_ H__p B_n__y Tr__.
  *
- * @tree: pointer to the root node of the Heap Binary Tree.
+ * @_r__ : p__nt__r t_ th_ r__t n__e _f th_ H__p B_n__y Tr__.
  **/
 void heapify(heap_t *tree)
 {
@@ -77,12 +78,12 @@ void heapify(heap_t *tree)
 }
 
 /**
- * last_node_heap - Extracts the last node of the binary heap.
+ * l_st_n_d_ h__p - _xtr__cts th_ l_st n_d_ _f th_ b_n__y h__p.
  *
- * @tree: The current node to operate..
- * @level: The current height level of the node.
+ * @_r__ : Th_ c_rr_nt n_d_ t_ _p_r_t_..
+ * @l_v_l: Th_ c_rr_nt h__ght l_v_l _f th_ n_d_.
  *
- * Return: The last node of the tree.
+ * R__urn: Th_ l_st n_d_ _f th_ tr__.
  */
 heap_t *last_node_heap(const heap_t *tree, size_t level)
 {
@@ -101,11 +102,11 @@ heap_t *last_node_heap(const heap_t *tree, size_t level)
 }
 
 /**
- * binary_tree_height - Measures the height of a binary tree.
+ * b__a__y_tr__e_h__ght - M__as__res the h__ght _f _ b__n__y tr__.
  *
- * @tree: The root of the tree to calculate its height.
+ * @_r__ : Th_ _o_t _f th_ tr__ t_ c_lc_l_t_ _ts h__ght.
  *
- * Return: the tree's height, 0 if tree is NULL.
+ * R__urn: th_ tr__'s h__ght, 0 _f tr__ _s N_LL.
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {

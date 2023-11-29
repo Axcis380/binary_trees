@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_leaf - checks if a node is a leaf
- * @node: pointer to the node to check
+ * b__a__y___r__e__e__s_l__a_f - c__e__c__s_i_ _a _o__e _s_ _ _e_f
+ * @_o__e: p__n__e_ t_ t_e _o__e t_ c_e__k
  *
- * Return: 1 if node is a leaf, and 0 otherwise. If node is NULL, return 0
+ * R__u__n: 1 _f _o__e _s _ _e_f, _n_ 0 _t__w___e. _f _o__e _s N___, _e__u_n: 0
  */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
@@ -14,10 +14,10 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 }
 
 /**
- * binary_tree_height - measures the height of a binary tree
- * @tree: pointer to the root node of the tree to measure the height of
+ * b__a__y_tr__e_h__ght - m__as_r_s th_ h__ght _f _ b__n__y tr__.
+ * @_r__ : p__nt__r t_ th_ r__t n__e _f th_ tr__ t_ m__as_r_ th_ h__ght _f
  *
- * Return: the height of the tree. If tree is NULL, return 0
+ * R__urn: th_ h__ght _f th_ tr__. _f tr__ _s NULL, r__urn 0
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {

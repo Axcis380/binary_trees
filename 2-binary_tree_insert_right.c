@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * bayee2 - crtes a biary tee node
+ * baytree2 - crtes a biary tee node
  * @prt: poiner  the noe to creat
  * @value: vaue to tore in new node
  *

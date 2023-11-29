@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * array_to_avl - turns an array to a avl tree
- * @array: array to turns to AVL tree
- * @size: size of array
- * Return: AVL tree from array
+ * arr_to_avl - trns an arr to a avl tre
+ * @arry: arr to trns to AVL tre
+ * @siz: siz of arr
+ * Rtrn: AVL tre frm arr
  */
 avl_t *array_to_avl(int *array, size_t size)
 {

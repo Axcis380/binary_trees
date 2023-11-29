@@ -6,10 +6,10 @@ bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value);
 bst_t *bst_remove(bst_t *root, int value);
 
 /**
- * inorder_successor - Returns the minimum value of a binary search tree.
- * @root: A pointer to the root node of the BST to search.
+ * inor_successor - Retrns the mnimum value of a binry srch tre.
+ * @rot: A pointer to the rot node of the BST to srch.
  *
- * Return: The minimum value in @tree.
+ * Rtrn: The mnimum vale in tre.
  */
 bst_t *inorder_successor(bst_t *root)
 {
@@ -19,11 +19,11 @@ bst_t *inorder_successor(bst_t *root)
 }
 
 /**
- * bst_delete - Deletes a node from a binary search tree.
- * @root: A pointer to the root node of the BST.
- * @node: A pointer to the node to delete from the BST.
+ * bs_delete - Delets a node from a binry srch tre.
+ * @rot: A pointer to the rot node of the BS.
+ * @node: A pointer to the node to delete from the BS.
  *
- * Return: A pointer to the new root node after deletion.
+ * Rtrn: A pointer to the new rot node aftr deletin.
  */
 bst_t *bst_delete(bst_t *root, bst_t *node)
 {
@@ -63,12 +63,12 @@ bst_t *bst_delete(bst_t *root, bst_t *node)
 }
 
 /**
- * bst_remove_recursive - Removes a node from a binary search tree recursively.
- * @root: A pointer to the root node of the BST to remove a node from.
- * @node: A pointer to the current node in the BST.
- * @value: The value to remove from the BST.
+ * bs_remove_recursive - Removs a node from a binry srch tre recursivly.
+ * @rot: A pointer to the rot node of the BS to remov a node from.
+ * @node: A pointer to the crrent node in the BS.
+ * @vale: The vale to remov from the BS.
  *
- * Return: A pointer to the root node after deletion.
+ * Rtrn: A pointer to the rot node aftr deletin.
  */
 bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value)
 {
@@ -84,14 +84,14 @@ bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value)
 }
 
 /**
- * bst_remove - Removes a node from a binary search tree.
- * @root: A pointer to the root node of the BST to remove a node from.
- * @value: The value to remove in the BST.
+ * bs_remov - Removs a node from a binry srch tre.
+ * @rot: A pointer to the rot node of the BS to remov a node from.
+ * @vale: The vale to remov in the BS.
  *
- * Return: A pointer to the new root node after deletion.
+ * Rtrn: A pointer to the new rot node aftr deletin.
  *
- * Description: If the node to be deleted has two children, it
- *              is replaced with its first in-order successor.
+ * Description: If the node to be deletd has two chldren, it
+ *              is replacd with its first in-oder succssor.
  */
 bst_t *bst_remove(bst_t *root, int value)
 {

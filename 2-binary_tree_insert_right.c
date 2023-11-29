@@ -2,12 +2,13 @@
 #include <stdlib.h>
 
 /**
- * b__a__y_tr__e_n__e_2 - cr__at_s _ b__n__y tr__ n__e
- * @p__r__t: p__r_nt _f th_ n__e t_ cr__at_
- * @v_l__ : v_l__ t_ st__r_ _n n_w n__e
+ * bayee2 - crtes a biary tee node
+ * @prt: poiner  the noe to creat
+ * @value: vaue to tore in new node
  *
- * R__urn: p__nt__r t_ th_ n_w n__e
+ * Return: poito the new node
  */
+
 binary_tree_t *binary_tree_node_2(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new_node;

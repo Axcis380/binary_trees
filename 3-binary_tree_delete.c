@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_delete - deletes an entire binary tree
- * @tree: pointer to the root node of the tree to delete
+ * b__a__y_tr__e_d_l_t_ - d_l_t_s _n _nt_r_ b__n__y tr__
+ * @_r__ : p__nt__r t_ th_ r__t n__e _f th_ tr__ t_ d_l_t_
  *
- * Return: void
+ * R__urn: v__d
  */
 void binary_tree_delete(binary_tree_t *tree)
 {

@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_node - creates a binary tree node
- * @parent: parnt of the node to create
- * @value: value to store in new node
+ * binary_tree_node - cretes a bin tee node
+ * @parent: parntof the nodeto crate
+ * @value: valueto store n new node
  *
- * Return: pointer to the new node
+ * Return: poinr to th new node
  */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {

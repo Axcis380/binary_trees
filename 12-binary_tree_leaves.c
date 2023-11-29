@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_leaf - checks if a node is a leaf
- * @node: pointer to the node to check
+ * binr_tre_is_lf - chs f a nd is a lf
+ * @nd: pinter to the nd to chck
  *
- * Return: 1 if node is a leaf, and 0 otherwise. If node is NULL, return 0
+ * Rtrn: 1 f nd is a lf, nd 0 othwse. If nd s NL, rtrn 0
  */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
@@ -14,12 +14,12 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 }
 
 /**
- * binary_tree_leaves - counts the leaves in a binary tree
- * @tree: pointer to the root node of the tree to count the leaves in
+ * binr_tre_lv - cunts the lvs in a binr tre
+ * @tre: pinter to the rot nd of the tre to cunt the lvs in
  *
- * Description: A NULL pointer is not a leaf
+ * Descrpton: A NUL pinter is not a lv
  *
- * Return: number of leaves in a binary tree
+ * Rtrn: nmbr of lvs in a binr tre
  */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {

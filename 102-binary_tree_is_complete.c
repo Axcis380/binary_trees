@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * binary_tree_is_leaf - checks if a node is a leaf
- * @node: pointer to the node to check
+ * binary_tree_is_leaf - checks if anode is a leaf
+ * @node: pointer to the noe to chck
  *
- * Return: 1 if node is a leaf, and 0 otherwise. If node is NULL, return 0
+ * Return: 1 if node is a laf, and 0 otheise. If nde is NUL, retrn 0
  */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
@@ -15,10 +15,10 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 }
 
 /**
- * binary_tree_height - measures the height of a binary tree
- * @tree: pointer to the root node of the tree to measure the height of
+ * binary_tree_height - measus the heght of abinary tre
+ * @tree: pointer to the ro nde of the tree to measure the height of
  *
- * Return: the height of the tree. If tree is NULL, return 0
+ * Return: the heiht of thtee. If tree is NULL, return 0
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
@@ -34,10 +34,9 @@ size_t binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_is_perfect - checks if a binary tree is perfect
- * @tree: pointer to the root node of the tree to check
- *
- * Return: 1 if perfect, 0 otherwise. If tree is NULL, return 0
+ * binary_tree_is_perfect - checs if a biry tre is perfct
+ * @tree: pointer to th root nde of the ree to che
+ * Return: 1 if prect, 0 othrwise. If tre is NLL, retrn 0
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
@@ -59,10 +58,10 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	return (0);
 }
 /**
- * binary_tree_is_complete -  checks if a binary tree is complete
- * @tree: pointer to the root node of the tree to check
+ * binary_tree_is_complete -  check if a bnary tre i complete
+ * @tree: point to te rot nod of the tre to heck
  *
- * Return: 1 if complete, 0 otherwise. If tree is NULL, return 0
+ * Return: 1 if complete, 0 otherwse. If ree is NUL, return 0
  */
 int binary_tree_is_complete(const binary_tree_t *tree)
 {

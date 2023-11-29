@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * array_to_heap - builds a Max Binary Heap tree
+ * _rr__y_t_ h__p - b__lds _ M_x B_n__y H__p tr__ _
  *
- * @array: pointer to the first element of the array
- * @size: number of element in the array
- * Return: pointer to the root node of the AVL tree
+ * @_rr__y: p__nt__r t_ th_ f__st _l_m_nt _f th_ _rr__y
+ * @s_z_: n_mb__r _f _l_m_nt _n th_ _rr__y
+ * R__urn: p__nt__r t_ th_ ___t n__e _f th_ _VL tr__ 
  */
 heap_t *array_to_heap(int *array, size_t size)
 {

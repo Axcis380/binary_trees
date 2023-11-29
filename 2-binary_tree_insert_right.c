@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_node_2 - creates a binary tree node
- * @parent: parnt of the node to create
- * @value: value to store in new node
+ * b__a__y_tr__e_n__e_2 - cr__at_s _ b__n__y tr__ n__e
+ * @p__r__t: p__r_nt _f th_ n__e t_ cr__at_
+ * @v_l__ : v_l__ t_ st__r_ _n n_w n__e
  *
- * Return: pointer to the new node
+ * R__urn: p__nt__r t_ th_ n_w n__e
  */
 binary_tree_t *binary_tree_node_2(binary_tree_t *parent, int value)
 {
@@ -22,14 +22,14 @@ binary_tree_t *binary_tree_node_2(binary_tree_t *parent, int value)
 }
 
 /**
- * binary_tree_insert_right - inserts a node as the right-child of another node
- * @parent: pointer to the node to insert the right-child in
- * @value: value to store in the new node
+ * b__a__y_tr__e_insert_right - _ns_rts _ n__e _s th_ r__ht-ch_ld _f _n_th_r n__e
+ * @p__r_nt: p__nt__r t_ th_ n__e t_ _ns_rt th_ r__ht-ch_ld _n
+ * @v_l__ : v_l__ t_ st__r_ _n th_ n_w n__e
  *
- * Description: If parent already has a right-child, the new node must take its
- * place and the old right-child must be set as the right-child of the new node
+ * D_sc__pt__n: _f p__r_nt _lr__dy h_s _ r__ht-ch_ld, th_ n_w n__e m_st t_k_ _ts
+ * pl_c_ _nd th_ _ld r__ht-ch_ld m_st b_ s_t _s th_ r__ht-ch_ld _f th_ n_w n__e
  *
- * Return: pointer to the created node, or NULL on failure
+ * R__urn: p__nt__r t_ th_ cr__t_d n__e, _r NULL _n f__l_r_
  */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {

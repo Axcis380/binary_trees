@@ -6,14 +6,14 @@
 #include <stdio.h>
 #include <limits.h>
 
-/* STRUCTS & TYPEDEFS */
+/* STR_CT_ & TY_P_DF_ */
 /**
- * struct binary_tree_s - Binary tree node
+ * str_ct b_n__y_tr__ s - B_n__y tr__ n_d_
  *
- * @n: Integer stored in the node
- * @parent: Pointer to the parent node
- * @left: Pointer to the left child node
- * @right: Pointer to the right child node
+ * @n: _nt_g_r st_r_d _n th_ n_d_
+ * @p_r_nt: P__nt__r t_ th_ p_r_nt n_d_
+ * @l_ft: P__nt__r t_ th_ l_ft ch_ld n_d_
+ * @r_ght: P__nt__r t_ th_ r_ght ch_ld n_d_
  */
 struct binary_tree_s
 {
@@ -27,7 +27,7 @@ typedef struct binary_tree_s bst_t;
 typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
 
-/* PROTOTYPES */
+/* PROTTYES */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
@@ -69,7 +69,7 @@ heap_t *array_to_heap(int *array, size_t size);
 int heap_extract(heap_t **root);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
-/* UTILITIES */
+/* UTILES */
 void binary_tree_print(const binary_tree_t *);
 
-#endif /* BINARY_TREES_H */
+#endif /* BNARY_TREES_H */

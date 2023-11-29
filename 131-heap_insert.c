@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * height - measures the height of a tree
+ * h__ght - m___s__r_s t_e h__ght _f _ tr__ 
  *
- * @tree: tree root
- * Return: height
+ * @_r__ : tr__ r__t
+ * R__urn: h__ght
  */
 int height(const binary_tree_t *tree)
 {
@@ -24,10 +24,10 @@ int height(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_is_perfect - checks if a binary tree is perfect
+ * b__a__y_tr__e__s_p_rf__t - ch__cks _f _ b__n__y tr__ _s p_rf__t
  *
- * @tree: tree root
- * Return: 1 if tree is perfect, 0 otherwise
+ * @_r__ : tr__ r__t
+ * R__urn: 1 _f tr__ _s p_rf__t, 0 _th__w__s_
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
@@ -49,11 +49,11 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 }
 
 /**
- * swap - swaps nodes when child is greater than parent
+ * sw_p - sw_ps n_d_s wh_n ch_ld _s gr__t__r th_n p__r_nt
  *
- * @arg_node: parent node
- * @arg_child: child node
- * Return: no return
+ * @__g_n__ : p__r_nt n__e
+ * @__g_ch_ld: ch_ld n__e
+ * R__urn: n_ _etu_n
  */
 void swap(heap_t **arg_node, heap_t **arg_child)
 {
@@ -100,10 +100,10 @@ void swap(heap_t **arg_node, heap_t **arg_child)
 }
 
 /**
- * heap_insert - function that inserts a value in Max Binary Heap
- * @value: value to be inserted
- * @root: tree root
- * Return: pointer to the created node, or NULL on failure.
+ * h__p__ns__rt - f_nct__n th_t _ns_rts _ v_l__ _n M_x B_n__y H__p
+ * @_v_l__ : v_l__ t_ b_ _ns_rted
+ * @_r__t: tr__ r__t
+ * R__urn: p__nt__r t_ th_ cr__t_d n__e, _r N_LL _n f__l__r_.
  */
 heap_t *heap_insert(heap_t **root, int value)
 {
